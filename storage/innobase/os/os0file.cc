@@ -1947,6 +1947,12 @@ os_file_create_func(
 	}
 #endif /* O_SYNC */
 
+	if (type == OS_DATA_FILE) //cgmin
+	{
+		printf("mmapread ON %s\n",name);
+		create_flag |= 0x40000000;
+	}
+
 	do {
 		file = ::open(name, create_flag, os_innodb_umask);
 
