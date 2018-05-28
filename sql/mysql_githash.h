@@ -21,7 +21,7 @@
 */
 #pragma once
 
-#define MYSQL_GIT_HASH "8d7a972db694b05e8c517abc9c10de6418243039"
+#define MYSQL_GIT_HASH "58e999254acf8af6c35d1f08afaf270dc57b9658"
 #define MYSQL_GIT_DATE "%cI"
 
 #define ROCKSDB_GIT_HASH "31ee4bf2400cf1807718192d352ca8bd7837ada2"
